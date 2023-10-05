@@ -49,7 +49,7 @@ if __name__ == "__main__":
         if ans.upper() != "Y":
             exit()
     elif files == None: # No files selected
-        files = glob.glob(""*.[Mm][Pp]3"")
+        files = glob.glob("*.[Mm][Pp]3")
 
         if len(files) == 0:
             print("No mp3 files in the current directory.")
